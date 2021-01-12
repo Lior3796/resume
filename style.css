@@ -124,3 +124,12 @@ img:hover {
 #followMe:visited {
     color: blue;
 }
+
+@media (max-width:500) {
+    body {
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
